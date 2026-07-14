@@ -14,6 +14,25 @@ Efficient replica synchronization is essential for maintaining consistency, faul
 
 **Core Technical Contributions**
 
+
+- **Adaptive Replica Synchronization Framework:**
+Designed an adaptive synchronization framework that dynamically regulates replica update propagation based on runtime synchronization delay, workload distribution, communication activity, and node resource utilization, improving synchronization efficiency across distributed architectures.
+- **Runtime Synchronization Monitoring Mechanism:**
+Implemented continuous monitoring of synchronization delay, communication behavior, replica health, and resource utilization to detect synchronization bottlenecks and maintain balanced replica coordination during runtime.
+- **Adaptive Propagation Control Model:**
+Developed a dynamic propagation mechanism that prioritizes replicas experiencing higher synchronization backlog, reducing propagation delay, synchronization backlog accumulation, and inconsistent replica state visibility.
+- **Concurrent Multi-Replica Synchronization Simulator:**
+Implemented a Go-based concurrent synchronization model using Goroutines and WaitGroups to simulate parallel replica synchronization, adaptive decision making, and runtime monitoring across distributed nodes.
+- **Scalability Analysis Across Cluster Sizes:**
+Evaluated synchronization performance across clusters containing 3, 5, 7, 9, and 11 nodes, demonstrating that adaptive synchronization maintains lower synchronization delay and better scalability than conventional static synchronization approaches.
+
+
+
+
+
+
+
+
 - **Predictive Monitoring and Recovery Framework:** \
 Designed a predictive failure handling framework that continuously monitors runtime behavior, identifies early interruption risks, and initiates recovery actions before operational degradation propagates across distributed infrastructure layers.
 - **Adaptive Runtime Recovery Coordination:** \
