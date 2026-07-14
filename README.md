@@ -35,14 +35,14 @@ Evaluated recovery performance across infrastructures with 3, 5, 7, 9, and 11 no
   | 11    |  2590                       | 1230                           | 52.51           |
 
 ### Citation
-Failure Handling Efficiency During Runtime Interruptions
+Replica Synchronization Evaluation Across Multi Node Architectures
 * SaiKrishna Mylavarapu
-* Journal of Advances in Developmental Research(IJAIDR) 
-* ISSN E-ISSN: 0976-4844
+* International Journal of Technology and Applied Science (IJTAS) 
+* ISSN E-ISSN: 2230-9004
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.
 * Resources \
-https://www.ijaidr.com/ 
+https://www.ijtas.com/ 
 * Author Contact \
   **LinkedIn**: linkedin.com/in/saikrishna-mylavarapu-35479114 | **Email**: krishnamysap@gmail.com
 
